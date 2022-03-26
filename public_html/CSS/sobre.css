@@ -2,10 +2,10 @@
     Created on : 18/02/2022, 19:28:37
     Author     : jose.ncdantas
 */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Oswald', sans-serif;
     background-color: #EAECEE;
     text-indent: 30px;
     text-align: justify-all;
@@ -66,4 +66,16 @@ figcaption {
 #Familia-Pelho {
     float: right;
     margin: 0 0 10px 10px;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+h1 + p{
+    text-indent: 0px;
+}
+
+p::first-line{
+    font-variant: small-caps;
 }
